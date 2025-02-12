@@ -35,6 +35,8 @@ function Main()
     
     document.addEventListener('scroll', (Event) => {
         UpdateImageBoxes()
+        let BottomScrollIndicator = document.getElementById("bottom-scroll-indicator")
+        BottomScrollIndicator.style.bottom = `${-window.scrollY}px`
     })
 }
 
