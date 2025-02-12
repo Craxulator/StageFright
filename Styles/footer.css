@@ -1,5 +1,4 @@
 footer {
-    position: fixed; 
     bottom: 0; 
     left: 0; 
     width: 100%;
@@ -34,7 +33,6 @@ footer {
 }
 
 .bpaLogo { 
-    position: absolute;
     bottom: 0px;
     max-width: 20vh;   
     padding: 4px; 
