@@ -1,27 +1,29 @@
 .nav {  
     position: absolute; 
     width: 100%;
-    height: 10%;  
-    overflow: hidden;    
-    display: flex; 
+    height: 25%;  
+    overflow: hidden;  
     z-index: 100; 
-    padding: 10px; 
+    padding: 40px; 
 } 
 
 .nav a {
     transition: 0.2s ease;
-    padding: 10px;
     color: white;
     text-decoration: none;
     font-size: 1rem;
-    text-align: center;   
-    width: 20%; 
+    text-align: center;    
+    margin: 8%;  
+    width: 100%; 
 }
 
+.navImg { 
+    max-width: 2%; 
+}
 .nav-1:hover
 {
     transition: 0.2s ease;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background: linear-gradient(45deg, blue 33%, yellow 50%, red 66%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -30,7 +32,7 @@
 .nav-2:hover
 {
     transition: 0.2s ease;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
     background: linear-gradient(45deg, red 20%, white 66%);
     -webkit-background-clip: text;
@@ -41,7 +43,7 @@
 .nav-3:hover
 {
     transition: 0.2s ease;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
     background: linear-gradient(45deg, red 33%, white 50%, blue 66%);
     -webkit-background-clip: text;
@@ -51,7 +53,7 @@
 .nav-4:hover
 {
     transition: 0.2s ease;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
     background: linear-gradient(45deg, white 25%, blue 100%);
     -webkit-background-clip: text;
@@ -61,7 +63,7 @@
 .nav-5:hover
 {
     transition: 0.2s ease;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
     background: linear-gradient(45deg, red 33%, yellow 50%, blue 66%);
     -webkit-background-clip: text;
