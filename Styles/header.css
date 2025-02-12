@@ -14,7 +14,8 @@
     font-size: 1rem;
     text-align: center;    
     margin: 8%;  
-    width: 100%; 
+    width: 100%;  
+    font-weight: 700; 
 }
 
 .navImg { 
