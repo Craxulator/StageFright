@@ -52,3 +52,19 @@ body {
     gap: 50px;
     padding: 20px;
 }
+
+
+scroll-indicator {
+    position: fixed;
+    height: 3vh;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+
+    font-size: 2.25vh;
+    text-align: center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(27, 31, 35, 1) 100%);
+
+    color:white;
+}
