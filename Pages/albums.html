@@ -2,22 +2,35 @@
 
 <html>
     <head>
-        <link rel="icon" href="/Assets/Images/Favicons/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Styles/main.css"> 
+        <link rel="stylesheet" href="../Styles/albums.css">
+        <title>StageFright - Tours</title>
+        <script src="./Scripts/Modules/MathModified.js"></script>
+        <script src="./Scripts/ImageBox.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="./Assets/Images/Favicon/favicon.ico">
     </head>
     <body>
         <script src="script.js"></script>
-        <div class="nav"> 
-                <a href="../index.html#about">About</a>
-                <a href="./tours.html">Tours</a>
-                <a href="./albums.html">Albums</a>
-                <a href="./merch.html">Merch</a>
-                <a href="../index.html#Contact">Contact Us</a>
-        </div> 
+        <section class="homePage">
+            <div class="nav">
+                <a class="nav-1" href="../index.html#about">About</a>
+                <a class="nav-2" href="./tours.html">Tours</a>
+                <img class="navImg" src="../Assets/Images/logo2.png" alt="" />
+                <a class="nav-3" href="./albums.html">Albums</a>
+                <a class="nav-4" href="./merch.html">Merch</a>
+            </div>
+            <img src="./Assets/Images/logo.png" alt="" class="centerLogo" />
+            <div class="overlay"></div>
+        </section>
 
         <footer>
             <p>&copy; StageFright</p>
         </footer>
         
-        <img src="../Assets/Images/Album1.png" alt="Album1" />
+        <img class="spin vinyl-positioning" id="vinyl" src="../Assets/Images/Albums/Vinyl/Album1.png" alt="Album1" />
+        <img class="vinyl-positioning" id="vinyl-cover" src="../Assets/Images/Albums/Realistic/Album1.png" />
     </body>
 </html>

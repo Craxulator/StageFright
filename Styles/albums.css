@@ -1,0 +1,26 @@
+@import url("./header.css");
+@import url("./footer.css");
+
+@keyframes Spin 
+{
+    0% {rotate: 0deg;}
+    50% {rotate: 180deg;}
+    100% {rotate: 360deg;}
+}
+
+.spin 
+{
+    animation-name: Spin;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+.vinyl-positioning
+{
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+}
