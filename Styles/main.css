@@ -1,5 +1,9 @@
 @import url("./footer.css");
 @import url("./header.css");
+@font-face {
+    font-family: StageFrightFont;
+    src: url(StageFrightFont.ttf);
+}
 
 html {
     margin: 0; 
