@@ -11,10 +11,10 @@
     transition: 0.2s ease;
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;     
     font-weight: 700;  
-    margin: 5%;  
+    margin: 6%;  
     position: relative; 
 }
 
@@ -25,7 +25,7 @@
 
 .nav-1:hover {
     transition: 0.2s ease;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     background: linear-gradient(180deg, black 0%, white 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -33,7 +33,7 @@
 
 .nav-2:hover {
     transition: 0.2s ease;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     background: linear-gradient(0deg, black 0%, white 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -42,7 +42,7 @@
 
 .nav-3:hover {
     transition: 0.2s ease;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     background: linear-gradient(0deg, black 0%, white 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -51,7 +51,7 @@
 .nav-4:hover
 {
     transition: 0.2s ease;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 
     background: linear-gradient(0deg, black 0%, white 100%);
     -webkit-background-clip: text;
