@@ -1,0 +1,12 @@
+.Timeline {
+    display: inline-block;
+    width: 15px;
+    height: 80vh;
+    background-color: #441c1c;
+    border-radius: 10px;
+    box-shadow: 5px;
+}
+
+.LineBox {
+    box-shadow: 5px;
+}

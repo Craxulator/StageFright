@@ -8,6 +8,20 @@
     100% {rotate: 360deg;}
 }
 
+@keyframes OpenCover 
+{
+    0% {transform: translateX(0vw);}
+    50% {transform: translateX(3.75vw);}
+    100% {transform: translateX(7.5vw);}
+}
+
+@keyframes OpenVinyl
+{
+    0% {transform: translateX(0vw);}
+    50% {transform: translateX(-3.75vw);}
+    100% {transform: translateX(-7.5vw);}
+}
+
 .spin 
 {
     animation-name: Spin;
@@ -18,9 +32,28 @@
     animation-iteration-count: infinite;
 }
 
+.open-cover
+{
+    animation-name: OpenCover;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+.open-vinyl
+{
+    animation-name: OpenVinyl;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
 .vinyl-positioning
 {
-    position: relative;
-    width: 10vw;
-    height: 10vw;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 20vh;
 }
