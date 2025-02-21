@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Berani';
+    src: url('../Assets/Images/Berani.ttf') format('truetype');
+  }
+
 .Timeline {
     display: inline-block;
     width: 15px;
@@ -9,4 +14,31 @@
 
 .LineBox {
     box-shadow: 5px;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+p {
+    font-family: 'Berani';
+    color: gray;
+}
+
+h1 {
+    font-family: 'StageFrightFont';
+    color: lightgrey;
+}
+
+a {
+    font-family: 'StageFrightFont';
+}
+
+#footerTitle {
+    font-family: sans-serif;
+}
+
+#tourDates {
+    font-family: 'StageFrightFont';
+    color: white;
 }
