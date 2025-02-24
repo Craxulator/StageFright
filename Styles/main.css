@@ -2,7 +2,7 @@
 @import url("./header.css");
 @font-face {
   font-family: 'StageFrightFont';
-  src: url('../Assets/Images/StageFrightFont.ttf') format('truetype');
+  src: url('../Assets/Images/sffont.ttf') format('truetype');
 }
 
 html {
