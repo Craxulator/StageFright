@@ -8,7 +8,7 @@ const Songs =
 
 let Vinyl = null
 let VinylCover = null
-
+let SpinStart = 0
 
 
 async function Play(SongName)
@@ -18,6 +18,7 @@ async function Play(SongName)
     Vinyl.style.animation = "OpenVinyl 1s linear forwards"
     VinylCover.style.animation = "OpenCover 1s linear forwards"
     await Delay(1_000)
+    SpinStart = new Date().getTime() / 1000
     Vinyl.style.animation = "Spin 30s linear forwards reverse infinite"
     Vinyl.style.left = "34.5vw"
 }
@@ -28,6 +29,8 @@ async function Stop(SongName)
     Vinyl.style.animation = "OpenCover 1s linear"
     VinylCover.style.animation = "OpenVinyl 1s linear"
     await Delay(1_000)
+    let SpinTime = SpinStart - (new Date().getTime() / 1000)
+    let Degrees = ((SpinTime / 30) * 360) % 360
     Vinyl.style.left = "41.875vw"
     VinylCover.style.right = ""
 }
