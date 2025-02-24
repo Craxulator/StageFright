@@ -3,6 +3,19 @@
     src: url('../Assets/Images/Berani.ttf') format('truetype');
   }
 
+#footerTitle {
+    font-family: sans-serif;
+}
+
+#tourDates {
+    font-family: 'Berani';
+    color: white;
+}
+
+.tourDatesTitle {
+    font-family: "StageFrightFont", sans-serif;
+}
+
 .Timeline {
     display: inline-block;
     width: 15px;
@@ -12,8 +25,26 @@
     box-shadow: 5px;
 }
 
+.Dates1 h2 {
+    text-align: center;
+    padding-top: 30%;
+}
+
+.date-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
 .LineBox {
-    box-shadow: 5px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.tourDates {
+    font-size: 1.2em; 
+    margin-bottom: 5px; 
 }
 
 body {
@@ -30,15 +61,12 @@ h1 {
     color: lightgrey;
 }
 
+h2 {
+    font-family: 'StageFrightFont';
+    color: white;
+}
+
 a {
     font-family: 'StageFrightFont';
 }
 
-#footerTitle {
-    font-family: sans-serif;
-}
-
-#tourDates {
-    font-family: 'StageFrightFont';
-    color: white;
-}
