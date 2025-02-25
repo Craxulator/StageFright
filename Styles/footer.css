@@ -17,6 +17,7 @@ footer {
 {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
 }
 
 .footerLinks
@@ -42,7 +43,6 @@ footer {
     transition: 0.2s ease;
     color: white;  
     text-decoration: none;
-    top: -10px;
 }
 
 .fa-1 {
