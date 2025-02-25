@@ -121,6 +121,10 @@
     line-height: 140%; 
 }
 
+p {
+    font-family: sans-serif;
+}
+
 .image-box {
     position: relative;
     flex: 1;
