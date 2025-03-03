@@ -43,7 +43,7 @@
 }
 
 .tourDates {
-    font-size: 1.2em; 
+    font-size: 1.5em; 
     margin-bottom: 5px; 
 }
 
@@ -53,6 +53,7 @@ body {
 
 p {
     font-family: 'Berani';
+    font-size: 1.2em;
     color: gray;
 }
 
