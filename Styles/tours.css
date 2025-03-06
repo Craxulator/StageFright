@@ -7,6 +7,17 @@
     font-family: sans-serif;
 }
 
+.homePage2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: white;
+    text-align: center;
+    position: relative; 
+    justify-content: center;
+    background-color: black;
+}
+
 #tourDates {
     font-family: 'Berani';
     color: white;
