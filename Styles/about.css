@@ -137,7 +137,7 @@ p {
 }
 
 .bottom-card-image {
-    background-image: url('../Assets/Images/cleveland.jpg');
+    background-image: url('../ScriptClevelandUse.jpeg');
 }
 
 @media (max-width: 768px) {
